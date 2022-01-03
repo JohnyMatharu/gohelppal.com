@@ -1,0 +1,170 @@
+/* Coding link url has to checked above */
+
+
+
+
+#self
+{
+    width: 9%;
+}
+
+#space
+{
+    height: 6px;
+}
+
+#height1
+{
+    height: 706px;
+      
+}
+#height2
+{
+    height: 706px;
+   
+}
+#height3
+{
+    height: 706px;
+    
+}
+
+
+div.scrollmenu {
+   
+    overflow: auto;
+    white-space: nowrap;
+    display: flex; 
+    align-items: center; 
+
+
+  }
+  
+
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+/* scroll bar arrow botton follows */
+
+#button {
+    
+  color: royalblue;
+  font-size: larger;
+  font-family: Calibri;
+  overflow-x: scroll;
+  height: 706px;
+  width: 100%;
+  white-space: nowrap;
+  display: flex; 
+  align-items: center; 
+  }
+
+  @media only screen and (max-width: 850px){
+    #button
+      {
+           
+  color: royalblue;
+  font-size: larger;
+  font-family: Calibri;
+  overflow-x: scroll;
+  height: 580px;
+  width: 100%;
+  white-space: nowrap;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+        
+      }
+    }
+
+
+
+  
+  img{
+   padding-left: 15%;
+   padding-top: 22.2%;
+   padding-right: 15%;
+   padding-bottom: 30%;
+  width: 555px;
+  border-color: #666 #3c6cd2;
+  border-image: none;
+  border-radius: 50px 0 50px 0;
+  border-style: solid;
+  border-width: 3px;
+
+}
+
+@media only screen and (max-width: 850px){
+  img
+    {
+      padding-left: 15%;
+      padding-top: 22.2%;
+      padding-right: 15%;
+      padding-bottom: 30%;
+      width: 172px;
+     border-color: #666 #3c6cd2;
+     border-image: none;
+     border-radius: 50px 0 50px 0;
+     border-style: solid;
+     border-width: 3px;
+      
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+   #pic1
+   {
+    filter: grayscale(100%);
+   }
+   #pic2
+   {
+
+    
+    filter: sepia(50%);
+    filter: contrast(200%) brightness(150%); 
+   }
+#pic3
+{
+   filter: sepia(50%); 
+  filter: hue-rotate(180deg);
+  
+}
+
+
+  div > p {
+    margin: 0;
+    width: 1500px;
+  }
+  
+  .scroll-btn {
+    background: lightblue;
+    color: #b429b0;
+    border: none;
+    padding: 2px 10px;
+    font-size: xxx-large;
+    position:absolute;
+    top: 16;
+  }
+  
+  @media only screen and (max-width: 850px){
+    .scroll-btn
+      {
+           display: none;
+        
+      }
+    }
+  
+  .scroll-btn.scroll-to-left { left: 0; }
+  .scroll-btn.scroll-to-right { right: 0; }
