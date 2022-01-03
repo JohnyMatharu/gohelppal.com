@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio",
+  "name": "gohelppal.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JohnnyMatharu.github.io/gohelppal.com",
+  "homepage": "http://JohnyMatharu.github.io/gohelppal.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
