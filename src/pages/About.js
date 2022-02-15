@@ -65,14 +65,14 @@ export default function AboutMe() {
     return (
         <section>
       <MDBContainer id="size">
-          <div className="rare-wind-gradient">
-          <h3 className="aqua-gradient color-block-5 mb-3 mx-auto z-depth-1" style={{ fontSize: '24px', fontFamily: 'Tahoma', fontWeight: 'bold', color: 'white' }}>2021 projects</h3>
+          <div className="backround">
+          <h3 className="headingBack" style={{ fontSize: '24px', fontFamily: 'Cambria', fontWeight: 'bold', color: 'white' }}>2021 projects</h3>
      
 <div id= "button">
   {/* add this to increase the icon size, style={{ fontSize: '24px' }} */}
-    <div id="height1"><h3 style={{fontWeight: "bold", fontSize: 24, fontFamily: 'Tahoma'}}>myBid</h3><h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a></h6><a href='https://mybid-live.herokuapp.com/'><img id ="pic1" src={pic1}></img></a></div>
-  <div id="height2"><h3 style={{fontWeight: "bold", fontSize: 24, fontFamily: 'Tahoma'}}>Tech Blog</h3><h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a></h6><a href='https://stormy-castle-86583.herokuapp.com/'><img id ="pic2" src={pic2}></img></a></div>
-  <div id="height3"><h3 style={{fontWeight: "bold", fontSize: 24, fontFamily: 'Tahoma'}}>Maunny</h3><h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a></h6><a href='https://johnymatharu.github.io/Maunny/'><img id ="pic3" src={pic3}></img></a></div>
+    <div id="height1"><h3 style={{fontWeight: "bold", fontSize: 24, fontFamily: 'Cambria'}}>myBid</h3><h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a></h6><a href='https://mybid-live.herokuapp.com/'><img id ="pic1" src={pic1}></img></a></div>
+  <div id="height2"><h3 style={{fontWeight: "bold", fontSize: 24, fontFamily: 'Cambria'}}>Tech Blog</h3><h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a></h6><a href='https://stormy-castle-86583.herokuapp.com/'><img id ="pic2" src={pic2}></img></a></div>
+  <div id="height3"><h3 style={{fontWeight: "bold", fontSize: 24, fontFamily: 'Cambria'}}>Maunny</h3><h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a></h6><a href='https://johnymatharu.github.io/Maunny/'><img id ="pic3" src={pic3}></img></a></div>
   
   
   <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" type="button"><i class="fas fa-chevron-left"></i></button>

@@ -8,14 +8,23 @@ Font Color:
 Black: Matilda Black
 Deep Navy Blue: 00003a
 Grey: Acczent Excellence 80 - Uni DARK GREY
-
+#7d7f81 is closest
 
 LOGO is Celestial Blue
 Font major font Verdana, 2nd Cambria for headings, 3rd Tahoma for logo
 */
 
 
+.backround
+{
 
+  background-color: #ECEFF8;
+}
+
+.headingBack
+{
+  background-color: #4F9CC8;
+}
 
 #self
 {
