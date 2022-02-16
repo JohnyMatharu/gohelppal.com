@@ -51,7 +51,7 @@ export default function Footer() {
        </div>
        <div class= "space" id ="Phone">
 
-     <h6 style={{color: '#3c6cd2', fontSize: '21px', fontFamily: 'Tacoma', fontWeight: 'bold', fontFamily: 'Tahoma' }}>© 2021</h6>
+     <h6 style={{color: 'black', fontSize: '21px', fontFamily: 'Verdana'}}>© 2021</h6>
        </div>
         </div>
     )

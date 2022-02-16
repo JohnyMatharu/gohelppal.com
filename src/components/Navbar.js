@@ -18,7 +18,8 @@ class Navbar extends React.Component {
     return (
       <div className="nav">
 
-      <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Tahoma', fontWeight: 'bold' }}><span style={{color:'#4F9CC8'}}>GoHelpPal</span></h3></div>
+      <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Tahoma', fontWeight: 'bold' }}>
+        <span style={{color:'#4F9CC8'}}>GoHelpPal</span></h3></div>
     {/* <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Verdana', fontWeight: 'bold' }}><span style={{color:'#13d34b'}}>Go</span><span style={{color:'#3c6cd2'}}>Help</span><span style={{color:'#b429b0'}}>Pal</span></h3></div>
      */}
 
@@ -28,7 +29,7 @@ class Navbar extends React.Component {
           </Link>
              
               <div className="aboutMe">
-              <NavLink className="firstLink" to="/about" activeStyle={ { color: "#b429b0" } }
+              <NavLink className="firstLink" to="/about" activeStyle={ { color: "#ECEFF8" } }
                              style={ isHome ? { color: "#b429b0" } : {} }>
                                 
       <div className="App">
@@ -38,7 +39,7 @@ class Navbar extends React.Component {
                                </NavLink></div>
             
               <div className="Resume">
-                <NavLink className="fourthLink" to="/resume" activeStyle={{color: "#b429b0"}}>Johny Matharu</NavLink>
+                <NavLink className="fourthLink" to="/resume" activeStyle={{color: "#ECEFF8"}}>Johny Matharu</NavLink>
               </div>
       </div>
       

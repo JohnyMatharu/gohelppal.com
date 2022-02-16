@@ -12,6 +12,10 @@ Grey: Acczent Excellence 80 - Uni DARK GREY
 
 LOGO is Celestial Blue
 Font major font Verdana, 2nd Cambria for headings, 3rd Tahoma for logo
+
+
+
+Next ones include project windows and header icons hover color  
 */
 
 
@@ -137,8 +141,10 @@ div.scrollmenu {
   }
   
 
-
-
+  .fa-github
+{
+  color: #4F9CC8;
+}
 
 
 
@@ -172,8 +178,8 @@ div.scrollmenu {
   }
   
   .scroll-btn {
-    background: lightblue;
-    color: #b429b0;
+    background: #ECEFF8;
+    color:#4F9CC8;
     border: none;
     padding: 2px 10px;
     font-size: xxx-large;
@@ -188,6 +194,8 @@ div.scrollmenu {
         
       }
     }
+
+    
   
   .scroll-btn.scroll-to-left { left: 0; }
   .scroll-btn.scroll-to-right { right: 0; }
