@@ -6,7 +6,7 @@ export default function Footer() {
        
        
        <div class= "space" id = "Mail">
-       <a href='mailto: jaani.matharu@gmail.com'><i class="fas fa-envelope" style={{ fontSize: '21px' }}></i></a>  
+       <a href='mailto: jaani.matharu@gmail.com'><i class="fas fa-envelope" style={{ fontSize: '18px' }}></i></a>  
        </div>
        <div class= "space" id = "Facebook">
       
@@ -51,7 +51,7 @@ export default function Footer() {
        </div>
        <div class= "space" id ="Phone">
 
-     <h6 style={{color: 'black', fontSize: '21px', fontFamily: 'Verdana'}}>© 2021</h6>
+     <h6 style={{color: 'black', fontSize: '18px', fontFamily: 'Verdana'}}>© 2021</h6>
        </div>
         </div>
     )

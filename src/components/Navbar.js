@@ -30,7 +30,7 @@ class Navbar extends React.Component {
              
               <div className="aboutMe">
               <NavLink className="firstLink" to="/about" activeStyle={ { color: "#ECEFF8" } }
-                             style={ isHome ? { color: "#b429b0" } : {} }>
+                             style={ isHome ? { color: "#4F9CC8" } : {} }>
                                 
       <div className="App">
         <FontAwesomeIcon icon={faHome} style={{ fontSize: '24px' }}/>

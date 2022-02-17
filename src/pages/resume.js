@@ -7,7 +7,7 @@ export default function Resume() {
 
 
 
-<h3 style = {{fontFamily: "Cambria", color: "blueviolet", fontWeight: "bold"}}>AboutMe</h3>
+<h3 style = {{fontFamily: "Cambria", color: "#7d7f81", fontWeight: "bold"}}>AboutMe</h3>
 <div id ="space"></div>
 <div id ="space"></div>
 <div id ="space"></div>
@@ -15,13 +15,13 @@ export default function Resume() {
 <h5 style = {{fontFamily: "Verdana", color: "royalblue", fontWeight: "bold"}}><i class="fas fa-phone"></i></h5>
 <ul><h6 style = {{fontFamily: "Verdana"}}>1-(416) 998 0934</h6></ul>
 <div id ="space"></div>
-<h5 style = {{fontFamily: "Verdana", color: "royalblue", fontWeight: "bold"}}>Top Skills</h5>
+<h5 style = {{fontFamily: "Cambria", color: "#00003a", fontWeight: "bold"}}>Top Skills</h5>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Full Stack Development</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>React Applications, MERN Stack, JavaScript</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Automotive Business Development</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Lead Co-ordination, Lead Generation, Sales and Closing</h6></ul>
 <div id ="space"></div>
-<h5 style = {{fontFamily: "Verdana", color: "royalblue", fontWeight: "bold"}}>Work</h5>
+<h5 style = {{fontFamily: "Cambria", color: "#00003a", fontWeight: "bold"}}>Work</h5>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Business Development Co-ordinator at AutoPark Barrie, ON, Feb to June 2020</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Subprime Finance Manager at 401 Auto Group, Barrie, ON, Nov 2019 to Feb 2020</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Credit Analyst 3 at Source One Financial, Barrie, ON, Feb 2019 to October 2019</h6></ul>
@@ -32,7 +32,7 @@ export default function Resume() {
 <ul><h6 style = {{fontFamily: "Verdana"}}>Quality Inspector for Magna International Mississauga 2013-2016</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Customer Service for Wal-Mart Toronto 2008-2012</h6></ul>
 <div id ="space"></div>
-<h5 style = {{fontFamily: "Verdana", color: "royalblue", fontWeight: "bold"}}>Education</h5>
+<h5 style = {{fontFamily: "Cambria", color: "#00003a", fontWeight: "bold"}}>Education</h5>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Full-Stack Web Development Certificate at University of Toronto, ON, Feb 2021 to August 2021</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Automotive Business Diploma at Georgian College, Barrie, ON, Jan 2017 to December 2018</h6></ul>
 <ul><h6 style = {{fontFamily: "Verdana"}}>Bachelor's of Commerce Degree at University of Pune, Pune, Maharashtra, Sept 1999 to March 2002</h6></ul>

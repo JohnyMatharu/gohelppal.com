@@ -115,12 +115,8 @@ div.scrollmenu {
    padding-right: 15%;
    padding-bottom: 30%;
   width: 555px;
-  border-color: #666 #3c6cd2;
-  border-image: none;
-  border-radius: 50px 0 50px 0;
-  border-style: solid;
-  border-width: 3px;
-
+ 
+ 
 }
 
 @media only screen and (max-width: 850px){
@@ -131,11 +127,9 @@ div.scrollmenu {
       padding-right: 15%;
       padding-bottom: 30%;
       width: 172px;
-     border-color: #666 #3c6cd2;
-     border-image: none;
-     border-radius: 50px 0 50px 0;
-     border-style: solid;
-     border-width: 3px;
+    
+   
+    
       
     }
   }
