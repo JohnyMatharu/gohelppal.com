@@ -23,11 +23,20 @@ Next ones include project windows and header icons hover color
 {
 
   background-color: #ECEFF8;
+    border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+  
 }
 
 .headingBack
 {
   background-color: #4F9CC8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #self
@@ -42,17 +51,17 @@ Next ones include project windows and header icons hover color
 
 #height1
 {
-    height: 706px;
+    height: 526px;
       
 }
 #height2
 {
-    height: 706px;
+    height: 526px;
    
 }
 #height3
 {
-    height: 706px;
+    height: 526px;
     
 }
 
@@ -111,11 +120,16 @@ div.scrollmenu {
   
   img{
    padding-left: 15%;
-   padding-top: 22.2%;
+
    padding-right: 15%;
-   padding-bottom: 30%;
-  width: 555px;
- 
+
+   width: 555px;
+   
+   /* border-top-left-radius: 16%; */
+   /* border-top-right-radius: 16%; */
+   /* border-bottom-left-radius: 16%; */
+   /* border-bottom-right-radius: 16%; */
+  
  
 }
 
@@ -127,7 +141,10 @@ div.scrollmenu {
       padding-right: 15%;
       padding-bottom: 30%;
       width: 172px;
-    
+      /* border-top-left-radius: 28%; */
+      /* border-top-right-radius: 28%; */
+      /* border-bottom-left-radius: 28%; */
+      /* border-bottom-right-radius: 28%; */
    
     
       
@@ -142,19 +159,16 @@ div.scrollmenu {
 
 
 
-
-
-
-
-
    #pic1
    {
+   
     filter: grayscale(100%);
+  
    }
    #pic2
    {
 
-    
+  
     filter: sepia(50%);
     filter: contrast(200%) brightness(150%); 
    }
@@ -162,7 +176,7 @@ div.scrollmenu {
 {
    filter: sepia(50%); 
   filter: hue-rotate(180deg);
-  
+
 }
 
 
