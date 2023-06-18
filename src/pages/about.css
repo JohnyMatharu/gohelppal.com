@@ -30,6 +30,32 @@ Next ones include project windows and header icons hover color
   
 }
 
+.backround2
+{
+
+  background-color: #ECEFF8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+width: 50%;
+  
+}
+
+.backround3
+{
+
+  background-color: #ECEFF8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+width: 50%;
+  
+}
+
+
+
 .headingBack
 {
   background-color: #4F9CC8;
@@ -63,6 +89,13 @@ Next ones include project windows and header icons hover color
 {
     height: 526px;
     
+}
+
+/* The following will need to change and match top part when having more projects for 2022 */
+#height4
+{
+  height: 526px;
+ 
 }
 
 
@@ -115,7 +148,10 @@ div.scrollmenu {
       }
     }
 
-
+    #space2
+{
+  height: 31.5px;
+}
 
   
   img{
@@ -140,7 +176,7 @@ div.scrollmenu {
       padding-top: 22.2%;
       padding-right: 15%;
       padding-bottom: 30%;
-      width: 172px;
+      width: 318px;
       /* border-top-left-radius: 28%; */
       /* border-top-right-radius: 28%; */
       /* border-bottom-left-radius: 28%; */
@@ -159,19 +195,7 @@ div.scrollmenu {
 
 
 
-   #pic1
-   {
-   
-    filter: grayscale(100%);
-  
-   }
-   #pic2
-   {
-
-  
-    filter: sepia(50%);
-    filter: contrast(200%) brightness(150%); 
-   }
+ 
 #pic3
 {
    filter: sepia(50%); 
