@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/gohelppal.com/static/css/main.feef5f68.chunk.css",
-    "main.js": "/gohelppal.com/static/js/main.7981d4ef.chunk.js",
-    "main.js.map": "/gohelppal.com/static/js/main.7981d4ef.chunk.js.map",
+    "main.css": "/gohelppal.com/static/css/main.a5c97095.chunk.css",
+    "main.js": "/gohelppal.com/static/js/main.2f92614d.chunk.js",
+    "main.js.map": "/gohelppal.com/static/js/main.2f92614d.chunk.js.map",
     "runtime-main.js": "/gohelppal.com/static/js/runtime-main.05e2c784.js",
     "runtime-main.js.map": "/gohelppal.com/static/js/runtime-main.05e2c784.js.map",
     "static/css/2.0238416c.chunk.css": "/gohelppal.com/static/css/2.0238416c.chunk.css",
-    "static/js/2.717968ea.chunk.js": "/gohelppal.com/static/js/2.717968ea.chunk.js",
-    "static/js/2.717968ea.chunk.js.map": "/gohelppal.com/static/js/2.717968ea.chunk.js.map",
+    "static/js/2.ff139e59.chunk.js": "/gohelppal.com/static/js/2.ff139e59.chunk.js",
+    "static/js/2.ff139e59.chunk.js.map": "/gohelppal.com/static/js/2.ff139e59.chunk.js.map",
     "static/js/3.e4d316d0.chunk.js": "/gohelppal.com/static/js/3.e4d316d0.chunk.js",
     "static/js/3.e4d316d0.chunk.js.map": "/gohelppal.com/static/js/3.e4d316d0.chunk.js.map",
     "index.html": "/gohelppal.com/index.html",
     "static/css/2.0238416c.chunk.css.map": "/gohelppal.com/static/css/2.0238416c.chunk.css.map",
-    "static/css/main.feef5f68.chunk.css.map": "/gohelppal.com/static/css/main.feef5f68.chunk.css.map",
-    "static/js/2.717968ea.chunk.js.LICENSE.txt": "/gohelppal.com/static/js/2.717968ea.chunk.js.LICENSE.txt",
-    "static/media/1.ff376e95.jpeg": "/gohelppal.com/static/media/1.ff376e95.jpeg",
-    "static/media/2.30a0bdfb.jpeg": "/gohelppal.com/static/media/2.30a0bdfb.jpeg",
-    "static/media/3.c3dc57fb.jpeg": "/gohelppal.com/static/media/3.c3dc57fb.jpeg",
+    "static/css/main.a5c97095.chunk.css.map": "/gohelppal.com/static/css/main.a5c97095.chunk.css.map",
+    "static/js/2.ff139e59.chunk.js.LICENSE.txt": "/gohelppal.com/static/js/2.ff139e59.chunk.js.LICENSE.txt",
+    "static/media/2.9ae6c766.jpeg": "/gohelppal.com/static/media/2.9ae6c766.jpeg",
+    "static/media/4.fa323fa0.jpeg": "/gohelppal.com/static/media/4.fa323fa0.jpeg",
     "static/media/mdb.css": "/gohelppal.com/static/media/arrow_right.f7c6ac6d.svg",
     "static/media/all.min.css": "/gohelppal.com/static/media/fa-solid-900.eeccf4f6.woff",
     "static/media/font-awesome.min.css": "/gohelppal.com/static/media/fontawesome-webfont.f691f37e.woff",
@@ -25,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.05e2c784.js",
     "static/css/2.0238416c.chunk.css",
-    "static/js/2.717968ea.chunk.js",
-    "static/css/main.feef5f68.chunk.css",
-    "static/js/main.7981d4ef.chunk.js"
+    "static/js/2.ff139e59.chunk.js",
+    "static/css/main.a5c97095.chunk.css",
+    "static/js/main.2f92614d.chunk.js"
   ]
 }
