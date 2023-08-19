@@ -52,7 +52,9 @@ height: 7.5%;
     height: 30%;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px)
+and (min-device-width: 375px) 
+{
    
     #profilePic
  {
@@ -83,7 +85,9 @@ height: 7.5%;
     width: 30%;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px)
+and (min-device-width: 375px) 
+{
    
     #profileContent
     {
@@ -127,7 +131,9 @@ height: 7.5%;
 
 
 
-  @media only screen and (max-width: 850px){
+  @media only screen and (max-width: 850px)
+ and (min-device-width: 375px) 
+  {
     #buttonProfile
       {
    font-size: larger;

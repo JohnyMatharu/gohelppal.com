@@ -16,7 +16,9 @@
    width: 16.66%;
   
 }
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px)
+and (min-device-width: 375px) 
+{
     .space
       {
            width: 25%;
@@ -24,7 +26,9 @@
       }
     }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px)
+and (min-device-width: 375px) 
+{
     #Github 
       {
            display: none;
@@ -32,7 +36,9 @@
       }
     }
 
-    @media only screen and (max-width: 850px){
+    @media only screen and (max-width: 850px)
+    and (min-device-width: 375px) 
+    {
         #Stack-OverFlow
           {
                display: none;

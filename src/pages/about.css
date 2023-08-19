@@ -24,7 +24,7 @@ width: 50%;
   /* this is 50 % because of only 1 project Maugny */
 }
 
-
+/*  
 @media only screen and (max-width: 850px){
   .backround2
     {
@@ -38,8 +38,23 @@ width: 50%;
       
     }
   }
+*/
 
+@media only screen and (max-width: 850px)
+ and (min-device-width: 375px) 
 
+{ 
+    .backround2
+{
+
+    background-color: #ECEFF8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  width: 100%;
+}   
+}
 
 
 .backround3
@@ -133,7 +148,9 @@ div.scrollmenu {
 
 
 
-  @media only screen and (max-width: 850px){
+  @media only screen and (max-width: 850px)
+ and (min-device-width: 375px) 
+  {
     #button
       {
            
@@ -213,7 +230,9 @@ width: 420px;
   }
 
 
-  @media only screen and (max-width: 850px){
+  @media only screen and (max-width: 850px)
+ and (min-device-width: 375px) 
+  {
     .scroll-btn
       {
            display: none;
