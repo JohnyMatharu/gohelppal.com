@@ -108,6 +108,18 @@ height: 7.5%;
  height: 243px;
 }
 
+@media only screen and (max-width: 890px)
+and (min-device-width: 414px){
+#imgProfile
+
+{
+  height: 243px;
+  width: 120%;
+}
+
+}
+
+
 
 
 #buttonProfile {
