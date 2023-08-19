@@ -16,8 +16,8 @@
    width: 16.66%;
   
 }
-@media only screen and (max-width: 850px)
-and (min-device-width: 375px) 
+@media only screen and (max-width: 890px)
+ and (min-device-width: 414px)
 {
     .space
       {
@@ -26,8 +26,8 @@ and (min-device-width: 375px)
       }
     }
 
-@media only screen and (max-width: 850px)
-and (min-device-width: 375px) 
+    @media only screen and (max-width: 890px)
+    and (min-device-width: 414px)
 {
     #Github 
       {
@@ -36,8 +36,8 @@ and (min-device-width: 375px)
       }
     }
 
-    @media only screen and (max-width: 850px)
-    and (min-device-width: 375px) 
+    @media only screen and (max-width: 890px)
+    and (min-device-width: 414px)
     {
         #Stack-OverFlow
           {

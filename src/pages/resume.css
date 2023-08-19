@@ -52,8 +52,8 @@ height: 7.5%;
     height: 30%;
 }
 
-@media only screen and (max-width: 850px)
-and (min-device-width: 375px) 
+@media only screen and (max-width: 890px)
+ and (min-device-width: 414px) 
 {
    
     #profilePic
@@ -85,8 +85,8 @@ and (min-device-width: 375px)
     width: 30%;
 }
 
-@media only screen and (max-width: 850px)
-and (min-device-width: 375px) 
+@media only screen and (max-width: 890px)
+ and (min-device-width: 414px)
 {
    
     #profileContent
@@ -131,8 +131,8 @@ and (min-device-width: 375px)
 
 
 
-  @media only screen and (max-width: 850px)
- and (min-device-width: 375px) 
+  @media only screen and (max-width: 890px)
+  and (min-device-width: 414px)
   {
     #buttonProfile
       {
