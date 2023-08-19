@@ -18,9 +18,9 @@ class Navbar extends React.Component {
     return (
       <div className="nav">
 
-      <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '28px', fontFamily: 'Tahoma', fontWeight: 'bold' }}>
-        <span style={{color:'#4F9CC8'}}>GoHelpPal</span></h3></div>
-    {/* <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Verdana', fontWeight: 'bold' }}><span style={{color:'#13d34b'}}>Go</span><span style={{color:'#3c6cd2'}}>Help</span><span style={{color:'#b429b0'}}>Pal</span></h3></div>
+      <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '27px', fontFamily: 'Futura', fontWeight: 'bold' }}>
+        <span style={{color:'#220088'}}>GoHelpPal</span></h3></div>
+    {/* <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Futura', fontWeight: 'bold' }}><span style={{color:'#13d34b'}}>Go</span><span style={{color:'#3c6cd2'}}>Help</span><span style={{color:'#b429b0'}}>Pal</span></h3></div>
      */}
 
 
@@ -30,16 +30,22 @@ class Navbar extends React.Component {
              
               <div className="aboutMe">
               <NavLink className="firstLink" to="/about" activeStyle={ { color: "#ECEFF8" } }
-                             style={ isHome ? { color: "#4F9CC8" } : {} }>
+                             style={ { color: "#220088"} }>
+                            
                                 
+
+{/* Try to reset the padding to lower the icon and line bottom, check Johny Matharu also */}
+
       <div className="App">
-        <FontAwesomeIcon icon={faHome} style={{ fontSize: '28px' }}/>
+        <FontAwesomeIcon icon={faHome} style={{ fontSize: '18px' }}/>
     </div>
                                
                                </NavLink></div>
-            
+            {/* only when not active it should turn to dark grey keeping in mind with hover effect */}
               <div className="Resume">
-                <NavLink className="fourthLink" to="/resume" activeStyle={{color: "#ECEFF8", fontSize: '14px'}}>Johny Matharu</NavLink>
+                <NavLink className="fourthLink" to="/resume" activeStyle={{color: "#ECEFF8", fontSize: '18px'}}
+                 style={ { color: "#808080"} }
+                >Johny Matharu</NavLink>
               </div>
       </div>
       

@@ -6,7 +6,11 @@ export default function Footer() {
        
        
        <div class= "space" id = "Mail">
-       <a href='mailto: jaani.matharu@gmail.com'><i class="fas fa-envelope" style={{ fontSize: '28px' }}></i></a>  
+       <br>
+       </br>
+       <br>
+       </br>
+       <a href='mailto: jaani.matharu@gmail.com'><i class="fas fa-envelope" style={{ color: "#220088", fontSize: '18px' }}></i></a>  
        </div>
        <div class= "space" id = "Facebook">
       
@@ -14,7 +18,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://www.facebook.com/GoHelpPal/'><i class="fab fa-facebook" style={{ fontSize: '28px' }}></i></a>
+       <a href='https://www.facebook.com/GoHelpPal/'><i class="fab fa-facebook" style={{ color: "#220088", fontSize: '18px' }}></i></a>
      
 
 
@@ -27,7 +31,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://www.linkedin.com/in/johny-matharu-0b0973115/'><i class="fab fa-linkedin" style={{ fontSize: '28px' }}></i></a>
+       <a href='https://www.linkedin.com/in/johny-matharu-0b0973115/'><i class="fab fa-linkedin" style={{color: "#220088", fontSize: '18px' }}></i></a>
      
        </div>
        <div class= "space" id ="Github">
@@ -36,7 +40,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://github.com/JohnyMatharu'><i class="fab fa-github" style={{ fontSize: '28px' }}></i></a>
+       <a href='https://github.com/JohnyMatharu'><i class="fab fa-github" style={{ color: "#220088", fontSize: '18px' }}></i></a>
 
        </div>
        <div class= "space" id ="Stack-OverFlow">
@@ -45,13 +49,19 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://stackexchange.com/users/20383702/johny-matharu'><i class="fab fa-stack-overflow" style={{ fontSize: '28px' }}></i></a>
+       <a href='https://stackexchange.com/users/20383702/johny-matharu'><i class="fab fa-stack-overflow" style={{color: "#220088", fontSize: '18px' }}></i></a>
      
        
        </div>
        <div class= "space" id ="Phone">
-
-     <h6 style={{color: 'black', fontSize: '14px', fontFamily: 'Verdana'}}>© 2021</h6>
+       <br>
+       </br>
+       <br>
+       </br>
+       {/* Please note the this is lifted up in the air little bit, in order to fix this size has to be adjusted and make sure the
+       the bottom is in line with icons and font size is same as other regular black text */}
+       
+     <h6 style={{color: 'black', fontSize: '15px', fontFamily: 'Futura'}}>© 2021</h6>
        </div>
         </div>
     )

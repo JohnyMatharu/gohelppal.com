@@ -8,27 +8,19 @@ import pic4 from '../pictures/4.jpeg';
 
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import $ from 'jquery';
-/*
-export default function About(props) {
-    let [count, setCount] = useState(0)
-    let [name, setName] = useState("")
 
-    useEffect(() => {
-       setName(props.myName)
-    }, [])
 
-    return (
-        <div onClick={() => {setCount(count + 1)}}>
-            Hi my name is {name} and the Count:{count}
-        </div>
-    )
-}
-*/
+
 $(function() {
   'use strict';
 
-  var scrollingValue = 150;
+// this is the value where you can increase the speed of scroll bar and increase the span will end, do this for Maugny
+// where ever you are using arrow scroll bars, do same for the color and size adjustment for arrow buttons
+
+  var scrollingValue = 270;
   var scrollbarPosition = 10;
+
+
 
   function getMaxChildWidth( elm ) {
     var childrenWidth = $.map($('>*', elm), function(el) { return $(el).width() });
@@ -67,36 +59,118 @@ export default function AboutMe() {
         <section>
       <MDBContainer id="size">
           <div className="backround">
-          <h3 className="headingBack" style={{ fontSize: '21px', fontFamily: 'Tahoma', fontWeight: 'bold', color: 'white' }}>2021 University Projects</h3>
+{/* this is main parent div heading back at beginning and then button is sub div after heading which has 3 equal sections
+called height 1, 2 and 3 */ }
+
+
+
+          <h3 className="headingBack" style={{ fontSize: '18px', fontFamily: 'Futura', fontWeight: 'bold', color: 'white' }}>2021 University Projects</h3>
      
 <div id= "button">
   {/* add this to increase the icon size, style={{ fontSize: '24px' }} */}
-    <div id="height1">
+    <div id="height">
+      {/* this is flex box with 3 sections equalBox with equal size to seperate information */}
       
+  
+<div id= "equalBox">  <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px' }}>myBid</h3>
 
-    <h6 style = {{fontFamily: "Verdana", color: 'black'}}> MERN Full Stack SPA: An auction platform </h6>
-    <h6 style = {{fontFamily: "Verdana", color: 'black'}}>with social features allowing anyone </h6>
-    <h6 style = {{fontFamily: "Verdana", color: 'black'}}>to create and bid on auctions. Once you’ve won</h6>
-    <h6 style = {{fontFamily: "Verdana", color: 'black'}}>an auction pay using Stripe or any Cryptocurrency.</h6>
+    <h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{color: "#220088", fontSize: '16px'}}></i></a> </h6> 
     <br></br>
+    <br></br>
+    </div>  
 
-      <h3 style={{fontWeight: "bold", fontSize: '24px', fontFamily: 'Tahoma', color: '00003a' }}>myBid</h3>
-    <h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{fontSize: '21px'}}></i></a>
-    </h6><a href='https://mybid-live.herokuapp.com/'><img id ="pic1" src={pic1}></img></a></div>
-  <div id="height2"><h3 style={{fontWeight: "bold", fontSize: '14px', fontFamily: 'Tahoma', color: '00003a' }}>Tech Blog</h3>
-  <h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a>
-  </h6><a href='https://stormy-castle-86583.herokuapp.com/'><img id ="pic2" src={pic2}></img></a></div>
-  <div id="height3"><h3 style={{fontWeight: "bold", fontSize: '14px', fontFamily: 'Tahoma', color: '00003a' }}>Maunny</h3>
-  <h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ fontSize: '21px' }}></i></a>
-  </h6><a href='https://johnymatharu.github.io/Maunny/'><img id ="pic3" src={pic3}></img></a></div>
+    {/* <div id= "equalBox"><a href='https://mybid-live.herokuapp.com/'><img id ="pic1" src={pic1}></img></a></div> */}
+    <div id= "equalBox"><a href='https://mybid-live.herokuapp.com/'><img src={pic1}></img></a></div> 
+  
+  <div id= "equalBox"> 
+  <br></br>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> MERN Full Stack SPA: An auction platform </h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>with social features allowing anyone to</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>create and bid on auctions. Once you’ve won</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>an auction pay using Stripe or any Cryptocurrency.</h6>
+  
+    </div> 
+  
+  {/* this is end of height 1 */}
+  </div> 
+ 
+ 
+  <div id="height">
+    
+    
+    
+    
+    <div id= "equalBox">
+    <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Tech Blog</h3>
+  <h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{color: "#220088", fontSize: '18px' }}></i></a>
+  </h6>
+  <br></br>
+    <br></br>
+  </div>
+  
+  <div id= "equalBox">
+  <a href='https://stormy-castle-86583.herokuapp.com/'><img src={pic2}></img></a>
+  </div>
+  
+  <div id= "equalBox">
+  <br></br>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> An app for users to post help offers help </h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>or volunteer opportunities. People will</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>leave their posts who wish to help or volunteer.</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Person requesting can offer a reward to helper.</h6>
+
+    </div>
+
+
+{/* this is end of height 2 */}
+  </div>
+ 
+  <div id="height">
+
+ 
+   
+   
+    
+    <div id= "equalBox"> <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Maunny</h3>
+<h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ color: "#220088",fontSize: '18px' }}></i></a>
+  </h6>
+  <br></br>
+    <br></br>
+  </div> 
+  
+  <div id= "equalBox">
+  <a href='https://johnymatharu.github.io/Maunny/'><img src={pic3}></img></a>
+  </div>
+  
+  <div id= "equalBox">
+  <br></br>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> Maunny is an application that gets comprehensive</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>information that would assist users in making</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>a correct purchase decision. Its an online</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>dealership, can search a vehicle from inventory.</h6>
+    </div>
+
+{/* this is end of height 3 */}
+  </div>
+  
   
   
   <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" type="button"><i class="fas fa-chevron-left"></i></button>
     <button class="scroll-btn scroll-to-right btn btn-light btn-arrodw-right" type="button"><i class="fas fa-chevron-right"></i></button>
-         
+         {/* this is end of button */}
    </div>
+
+   {/* this is end of backround */}
           </div>
     </MDBContainer >  
+
+
+
+
+
+
+
+
 <div id ="space">
 </div>
 <div id ="space"></div>
@@ -106,18 +180,39 @@ export default function AboutMe() {
 
     <MDBContainer id="size">
           <div className="backround2">
-          <h3 className="headingBack" style={{ fontSize: '21px', fontFamily: 'Tahoma', fontWeight: 'bold', color: 'white' }}>2022 - 2023 Personal E-Commmerce Project</h3>
+          <h3 className="headingBack" style={{ fontSize: '18px', fontFamily: 'Futura', fontWeight: 'bold', color: 'white' }}>2022 - 2023 Personal E-Commmerce Project</h3>
      
 <div id= "button">
   {/* add this to increase the icon size, style={{ fontSize: '24px' }} */}
-    <div id="height4"><h3 style={{fontWeight: "bold", fontSize: '14px', fontFamily: 'Tahoma', color: '00003a' }}>MAUGNY INC.</h3>
-    <div id ="space2"></div>
+    <div id="height">
+      
+   
+
+    <div id= "equalBox">
+      <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>MAUGNY</h3>
+    {/* <div id ="space2"></div> */}
     <h6>
-   {/*if there is a link we will uncomment following and insert here  */}
-      {/* <a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{fontSize: '21px'}}></i></a> */}
-    </h6>
+   {/*if there is a link we will insert here for Github, if nothing then add special permission page etc., there is no link 
+   here for now */}
+     <a href='https://github.com/JohnyMatharu/maugny.com'>
+      <i class="fab fa-github" style={{color: "#220088", fontSize: '18px'}}></i>
+      </a></h6>
+    <br></br>
+    <br></br>
+    </div>
     
-    <a href='https://maternitytoday.org/'><img id ="pic4" src={pic4}></img></a></div>
+    <div id= "equalBoxSpecial">
+    <a href='https://johnymatharu.github.io/maugny.com/'><img src={pic4}></img></a>
+    </div>
+    <br></br>
+    <div id= "equalBox">
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Maugny is e-commerce site which sells automotive</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>sports jewelry and gear. Goal is to connect</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>and buyer for best deal negotiation i.e. supplier</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>quality and returnable sizes with fastest delivery.</h6>
+    </div>
+    
+    </div>
   
   {/* these buttons are connected to this div, when you add 2023 projects then this will disappear and same buttons will be added to that div instead */}
   <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" type="button"><i class="fas fa-chevron-left"></i></button>
