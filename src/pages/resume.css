@@ -59,7 +59,7 @@ height: 7.5%;
     #profilePic
  {
     height: 30%;
-    width: 100%;
+    /* width: 100%; */
     /* white-space: nowrap; */
     display: flex; 
     align-items: center; 
@@ -113,8 +113,11 @@ and (min-device-width: 414px){
 #imgProfile
 
 {
+  /* background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
+  /* background-size: "cover"; */
+ 
   /* height: 100%; */
-  /* width: 90%; */
+  /* width: 100%; */
 }
 
 }
