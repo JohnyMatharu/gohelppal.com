@@ -19,7 +19,7 @@ class Navbar extends React.Component {
       <div className="nav">
 
       <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '27px', fontFamily: 'Futura', fontWeight: 'bold' }}>
-        <span style={{color:'#7FFFD4'}}>GoHelpPal</span></h3></div>
+        <span style={{color:'#00F4A2'}}>GoHelpPal</span></h3></div>
         {/* Make changes with brand color as in previous line */}
     {/* <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Futura', fontWeight: 'bold' }}><span style={{color:'#13d34b'}}>Go</span><span style={{color:'#3c6cd2'}}>Help</span><span style={{color:'#b429b0'}}>Pal</span></h3></div>
      */}
