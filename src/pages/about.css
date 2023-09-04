@@ -72,7 +72,7 @@ width: 50%;
 
 .headingBack
 {
-  background-color:#220088;
+  background-color: #808080;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -191,7 +191,7 @@ width: 420px;
 
   .fa-github
 {
-  color:#220088;
+  color:#00F4A2;
 }
 
 
@@ -214,7 +214,7 @@ width: 420px;
 
   .scroll-btn {
     background: #ECEFF8;
-    color:#220088;
+    color:#00F4A2;
     border: none;
     padding: 2px 10px;
     font-size: x-large;

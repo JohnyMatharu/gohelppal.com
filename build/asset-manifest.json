@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gohelppal.com/static/css/main.90aacb4d.chunk.css",
-    "main.js": "/gohelppal.com/static/js/main.91687696.chunk.js",
-    "main.js.map": "/gohelppal.com/static/js/main.91687696.chunk.js.map",
+    "main.js": "/gohelppal.com/static/js/main.a5ed17ce.chunk.js",
+    "main.js.map": "/gohelppal.com/static/js/main.a5ed17ce.chunk.js.map",
     "runtime-main.js": "/gohelppal.com/static/js/runtime-main.05e2c784.js",
     "runtime-main.js.map": "/gohelppal.com/static/js/runtime-main.05e2c784.js.map",
     "static/css/2.0238416c.chunk.css": "/gohelppal.com/static/css/2.0238416c.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.0238416c.chunk.css",
     "static/js/2.8e2b4c9f.chunk.js",
     "static/css/main.90aacb4d.chunk.css",
-    "static/js/main.91687696.chunk.js"
+    "static/js/main.a5ed17ce.chunk.js"
   ]
 }

@@ -74,7 +74,7 @@ called height 1, 2 and 3 */ }
   
 <div id= "equalBox">  <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px' }}>myBid</h3>
 
-    <h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{color: "#220088", fontSize: '16px'}}></i></a> </h6> 
+    <h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{color: "#00F4A2", fontSize: '16px'}}></i></a> </h6> 
     <br></br>
     <br></br>
     </div>  
@@ -102,7 +102,7 @@ called height 1, 2 and 3 */ }
     
     <div id= "equalBox">
     <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Tech Blog</h3>
-  <h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{color: "#220088", fontSize: '18px' }}></i></a>
+  <h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{color: "#00F4A2", fontSize: '18px' }}></i></a>
   </h6>
   <br></br>
     <br></br>
@@ -132,7 +132,7 @@ called height 1, 2 and 3 */ }
    
     
     <div id= "equalBox"> <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Maunny</h3>
-<h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ color: "#220088",fontSize: '18px' }}></i></a>
+<h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ color: "#00F4A2",fontSize: '18px' }}></i></a>
   </h6>
   <br></br>
     <br></br>
@@ -195,7 +195,7 @@ called height 1, 2 and 3 */ }
    {/*if there is a link we will insert here for Github, if nothing then add special permission page etc., there is no link 
    here for now */}
      <a href='https://github.com/JohnyMatharu/maugny.com'>
-      <i class="fab fa-github" style={{color: "#220088", fontSize: '18px'}}></i>
+      <i class="fab fa-github" style={{color: "#00F4A2", fontSize: '18px'}}></i>
       </a></h6>
     <br></br>
     <br></br>

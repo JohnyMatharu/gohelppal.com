@@ -31,7 +31,7 @@ class Navbar extends React.Component {
              
               <div className="aboutMe">
               <NavLink className="firstLink" to="/about" activeStyle={ { color: "#ECEFF8" } }
-                             style={ { color: "#220088"} }>
+                             style={ { color: "#00F4A2"} }>
                             
                                 
 

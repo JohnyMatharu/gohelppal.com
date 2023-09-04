@@ -10,7 +10,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='mailto: jaani.matharu@gmail.com'><i class="fas fa-envelope" style={{ color: "#220088", fontSize: '18px' }}></i></a>  
+       <a href='mailto: jaani.matharu@gmail.com'><i class="fas fa-envelope" style={{ color: "#00F4A2", fontSize: '18px' }}></i></a>  
        </div>
        <div class= "space" id = "Facebook">
       
@@ -18,7 +18,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://www.facebook.com/GoHelpPal/'><i class="fab fa-facebook" style={{ color: "#220088", fontSize: '18px' }}></i></a>
+       <a href='https://www.facebook.com/GoHelpPal/'><i class="fab fa-facebook" style={{ color: "#00F4A2", fontSize: '18px' }}></i></a>
      
 
 
@@ -31,7 +31,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://www.linkedin.com/in/johny-matharu-0b0973115/'><i class="fab fa-linkedin" style={{color: "#220088", fontSize: '18px' }}></i></a>
+       <a href='https://www.linkedin.com/in/johny-matharu-0b0973115/'><i class="fab fa-linkedin" style={{color: "#00F4A2", fontSize: '18px' }}></i></a>
      
        </div>
        <div class= "space" id ="Github">
@@ -40,7 +40,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://github.com/JohnyMatharu'><i class="fab fa-github" style={{ color: "#220088", fontSize: '18px' }}></i></a>
+       <a href='https://github.com/JohnyMatharu'><i class="fab fa-github" style={{ color: "#00F4A2", fontSize: '18px' }}></i></a>
 
        </div>
        <div class= "space" id ="Stack-OverFlow">
@@ -49,7 +49,7 @@ export default function Footer() {
        </br>
        <br>
        </br>
-       <a href='https://stackexchange.com/users/20383702/johny-matharu'><i class="fab fa-stack-overflow" style={{color: "#220088", fontSize: '18px' }}></i></a>
+       <a href='https://stackexchange.com/users/20383702/johny-matharu'><i class="fab fa-stack-overflow" style={{color: "#00F4A2", fontSize: '18px' }}></i></a>
      
        
        </div>
