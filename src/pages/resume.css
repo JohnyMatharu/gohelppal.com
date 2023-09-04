@@ -108,19 +108,6 @@ height: 7.5%;
  height: 243px;
 }
 
-@media only screen and (max-width: 890px)
-and (min-device-width: 414px){
-#imgProfile
-
-{
-  /* background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
-  /* background-size: "cover"; */
- 
-  /* height: 100%; */
-  /* width: 100%; */
-}
-
-}
 
 
 
