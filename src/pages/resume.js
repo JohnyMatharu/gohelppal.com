@@ -7,8 +7,8 @@ import './resume.css';
 
 
 export default function Resume() {
-    return (
 
+    return (
 
 <section>
 

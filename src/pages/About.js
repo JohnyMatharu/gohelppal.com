@@ -18,7 +18,7 @@ $(function() {
 // where ever you are using arrow scroll bars, do same for the color and size adjustment for arrow buttons
 
   var scrollingValue = 270;
-  var scrollbarPosition = 10;
+  var scrollbarPosition = 30;
 
 
 
@@ -49,12 +49,14 @@ $(function() {
     $(this).parent().scrollLeft(
       scrollbarPosition += getScrollingValue(false, $(this).parent())
     );
+    
   });
 });
 
 
 
 export default function AboutMe() {
+
     return (
         <section>
       <MDBContainer id="size">
@@ -72,7 +74,7 @@ called height 1, 2 and 3 */ }
       {/* this is flex box with 3 sections equalBox with equal size to seperate information */}
       
   
-<div id= "equalBox">  <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px' }}>myBid</h3>
+<div id= "equalBox"> <span><h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px' }}>myBid&nbsp;</h3></span> 
 
     <h6><a href='https://github.com/PrimalOrB/myBid'><i class="fab fa-github" style={{color: "#00F4A2", fontSize: '16px'}}></i></a> </h6> 
     <br></br>
@@ -101,7 +103,7 @@ called height 1, 2 and 3 */ }
     
     
     <div id= "equalBox">
-    <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Tech Blog</h3>
+    <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Tech Blog&nbsp;</h3>
   <h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{color: "#00F4A2", fontSize: '18px' }}></i></a>
   </h6>
   <br></br>
@@ -131,7 +133,7 @@ called height 1, 2 and 3 */ }
    
    
     
-    <div id= "equalBox"> <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Maunny</h3>
+    <div id= "equalBox"> <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Maunny&nbsp;</h3>
 <h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ color: "#00F4A2",fontSize: '18px' }}></i></a>
   </h6>
   <br></br>
@@ -155,8 +157,11 @@ called height 1, 2 and 3 */ }
   
   
   
-  <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" type="button"><i class="fas fa-chevron-left"></i></button>
-    <button class="scroll-btn scroll-to-right btn btn-light btn-arrodw-right" type="button"><i class="fas fa-chevron-right"></i></button>
+  <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" 
+  type="button"><i class="fas fa-chevron-left"></i></button>
+    <button class="scroll-btn scroll-to-right btn btn-light btn-arrow-right" type="button"><i class="fas fa-chevron-right"></i></button>
+    
+         
          {/* this is end of button */}
    </div>
 
@@ -189,7 +194,7 @@ called height 1, 2 and 3 */ }
    
 
     <div id= "equalBox">
-      <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>MAUGNY</h3>
+      <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>MAUGNY&nbsp;</h3>
     {/* <div id ="space2"></div> */}
     <h6>
    {/*if there is a link we will insert here for Github, if nothing then add special permission page etc., there is no link 
