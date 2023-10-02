@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gohelppal.com/static/css/main.6a2fa0ee.chunk.css",
-    "main.js": "/gohelppal.com/static/js/main.11b0cb2d.chunk.js",
-    "main.js.map": "/gohelppal.com/static/js/main.11b0cb2d.chunk.js.map",
+    "main.css": "/gohelppal.com/static/css/main.6b1e2f25.chunk.css",
+    "main.js": "/gohelppal.com/static/js/main.daded984.chunk.js",
+    "main.js.map": "/gohelppal.com/static/js/main.daded984.chunk.js.map",
     "runtime-main.js": "/gohelppal.com/static/js/runtime-main.05e2c784.js",
     "runtime-main.js.map": "/gohelppal.com/static/js/runtime-main.05e2c784.js.map",
     "static/css/2.0238416c.chunk.css": "/gohelppal.com/static/css/2.0238416c.chunk.css",
@@ -12,12 +12,12 @@
     "static/js/3.e4d316d0.chunk.js.map": "/gohelppal.com/static/js/3.e4d316d0.chunk.js.map",
     "index.html": "/gohelppal.com/index.html",
     "static/css/2.0238416c.chunk.css.map": "/gohelppal.com/static/css/2.0238416c.chunk.css.map",
-    "static/css/main.6a2fa0ee.chunk.css.map": "/gohelppal.com/static/css/main.6a2fa0ee.chunk.css.map",
+    "static/css/main.6b1e2f25.chunk.css.map": "/gohelppal.com/static/css/main.6b1e2f25.chunk.css.map",
     "static/js/2.8e2b4c9f.chunk.js.LICENSE.txt": "/gohelppal.com/static/js/2.8e2b4c9f.chunk.js.LICENSE.txt",
-    "static/media/1.b653a956.jpeg": "/gohelppal.com/static/media/1.b653a956.jpeg",
-    "static/media/2.cd06719c.jpeg": "/gohelppal.com/static/media/2.cd06719c.jpeg",
-    "static/media/3.a96f49be.jpeg": "/gohelppal.com/static/media/3.a96f49be.jpeg",
-    "static/media/4.ad53aca6.jpeg": "/gohelppal.com/static/media/4.ad53aca6.jpeg",
+    "static/media/1.f736fb5c.jpeg": "/gohelppal.com/static/media/1.f736fb5c.jpeg",
+    "static/media/2.3c5fc60e.jpeg": "/gohelppal.com/static/media/2.3c5fc60e.jpeg",
+    "static/media/3.ccfa97bb.jpeg": "/gohelppal.com/static/media/3.ccfa97bb.jpeg",
+    "static/media/4.d0aefc8e.jpeg": "/gohelppal.com/static/media/4.d0aefc8e.jpeg",
     "static/media/5.8c497fff.jpeg": "/gohelppal.com/static/media/5.8c497fff.jpeg",
     "static/media/mdb.css": "/gohelppal.com/static/media/arrow_right.f7c6ac6d.svg",
     "static/media/all.min.css": "/gohelppal.com/static/media/fa-solid-900.eeccf4f6.woff",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.05e2c784.js",
     "static/css/2.0238416c.chunk.css",
     "static/js/2.8e2b4c9f.chunk.js",
-    "static/css/main.6a2fa0ee.chunk.css",
-    "static/js/main.11b0cb2d.chunk.js"
+    "static/css/main.6b1e2f25.chunk.css",
+    "static/js/main.daded984.chunk.js"
   ]
 }
