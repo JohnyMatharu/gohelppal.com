@@ -176,18 +176,21 @@ div.scrollmenu {
 }
 
   
-img{
 
-/* height: 100%; */
-padding-left: 21%;
-/* padding-top: 22.2%; */
-padding-right: 21%;
-/* padding-bottom: 30%; */
-width: 420px;
-   
-}
 
-  
+  #pic
+  {
+    width: 420.1px;
+    /* width: 320.1px; */
+  border: 27px solid #ECEFF8;;
+ 
+
+  }
+ /* 
+  this is for to fix above image tag, use 2 diff ids for images
+  width: 420.1px;
+border: 16px solid white;
+  */
 
   .fa-github
 {

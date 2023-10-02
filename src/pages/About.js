@@ -55,6 +55,8 @@ $(function() {
 
 
 
+
+
 export default function AboutMe() {
 
     return (
@@ -82,14 +84,13 @@ called height 1, 2 and 3 */ }
     </div>  
 
     {/* <div id= "equalBox"><a href='https://mybid-live.herokuapp.com/'><img id ="pic1" src={pic1}></img></a></div> */}
-    <div id= "equalBox"><a href='https://mybid-live.herokuapp.com/'><img src={pic1}></img></a></div> 
+    <div id= "equalBox"><a href='https://mybid-live.herokuapp.com/'><img id = "pic" src={pic1}></img></a></div> 
   
   <div id= "equalBox"> 
   <br></br>
   <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> MERN Full Stack SPA: An auction platform </h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>with social features allowing anyone to</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>create and bid on auctions. Once you’ve won</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>an auction pay using Stripe or any Cryptocurrency.</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>allowing anyone to create and bid on auctions.</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Pay by Stripe or Cryptocurrency.</h6>
   
     </div> 
   
@@ -103,24 +104,24 @@ called height 1, 2 and 3 */ }
     
     
     <div id= "equalBox">
-    <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Tech Blog&nbsp;</h3>
-  <h6><a href='https://github.com/JohnyMatharu/Tech-Blog'><i class="fab fa-github" style={{color: "#00F4A2", fontSize: '18px' }}></i></a>
-  </h6>
+    <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Tech AI Chat&nbsp;</h3>
+  <h6><a href='https://github.com/JohnyMatharu/Tech-Blog-AI-Chat'><i class="fab fa-github" style={{color: "#00F4A2", fontSize: '18px' }}></i></a>
+  </h6>  
+  {/* 'https://github.com/JohnyMatharu/Tech-Blog' */}
   <br></br>
     <br></br>
   </div>
   
   <div id= "equalBox">
-  <a href='https://stormy-castle-86583.herokuapp.com/'><img src={pic2}></img></a>
+  <a href='https://johnymatharu.github.io/Tech-Blog-AI-Chat/'><img id = "pic"  src={pic2}></img></a>
   </div>
-  
+  {/* 'https://stormy-castle-86583.herokuapp.com/'  */}
   <div id= "equalBox">
   <br></br>
-  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> An app for users to post help offers help </h6>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> An app for users to post help, offers help </h6>
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>or volunteer opportunities. People will</h6>
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>leave their posts who wish to help or volunteer.</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Person requesting can offer a reward to helper.</h6>
-
+   
     </div>
 
 
@@ -141,27 +142,27 @@ called height 1, 2 and 3 */ }
   </div> 
   
   <div id= "equalBox">
-  <a href='https://johnymatharu.github.io/Maunny/'><img src={pic3}></img></a>
+  <a href='https://johnymatharu.github.io/Maunny/'><img id = "pic"  src={pic3}></img></a>
   </div>
   
   <div id= "equalBox">
   <br></br>
   <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> Maunny is an application that gets comprehensive</h6>
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>information that would assist users in making</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>a correct purchase decision. Its an online</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>dealership, can search a vehicle from inventory.</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>a correct purchase decision. Its an online dealership.</h6>
+      
+ 
     </div>
-
+ 
 {/* this is end of height 3 */}
   </div>
   
   
-  
-  <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" 
-  type="button"><i class="fas fa-chevron-left"></i></button>
-    <button class="scroll-btn scroll-to-right btn btn-light btn-arrow-right" type="button"><i class="fas fa-chevron-right"></i></button>
-    
-         
+
+  {/* <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left"  */}
+  {/* type="button"><i class="fas fa-chevron-left"></i></button> */}
+    {/* <button class="scroll-btn scroll-to-right btn btn-light btn-arrow-right" type="button"><i class="fas fa-chevron-right"></i></button> */}
+        
          {/* this is end of button */}
    </div>
 
@@ -207,21 +208,20 @@ called height 1, 2 and 3 */ }
     </div>
     
     <div id= "equalBoxSpecial">
-    <a href='https://johnymatharu.github.io/maugny.com/'><img src={pic4}></img></a>
+    <a href='https://johnymatharu.github.io/maugny.com/'><img id = "pic"  src={pic4}></img></a>
     </div>
     <br></br>
     <div id= "equalBox">
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Maugny is e-commerce site which sells automotive</h6>
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>sports jewelry and gear. Goal is to connect</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>and buyer for best deal negotiation i.e. supplier</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>quality and returnable sizes with fastest delivery.</h6>
-    </div>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>buyer for best deal negotiation with supplier.</h6>
+       </div>
     
     </div>
   
   {/* these buttons are connected to this div, when you add 2023 projects then this will disappear and same buttons will be added to that div instead */}
-  <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" type="button"><i class="fas fa-chevron-left"></i></button>
-    <button class="scroll-btn scroll-to-right btn btn-light btn-arrodw-right" type="button"><i class="fas fa-chevron-right"></i></button>
+  {/* <button class="scroll-btn scroll-to-left btn btn-light btn-arrow-left" type="button"><i class="fas fa-chevron-left"></i></button> */}
+    {/* <button class="scroll-btn scroll-to-right btn btn-light btn-arrodw-right" type="button"><i class="fas fa-chevron-right"></i></button> */}
          
    </div>
           </div>
