@@ -14,18 +14,19 @@ class Navbar extends React.Component {
 
   render() {    
     const { location } = this.props;
+    
         const isHome = location.pathname === "/";
     return (
       <div className="nav">
 
-      <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '27px', fontFamily: 'Futura', fontWeight: 'bold' }}>
+      <div id ="sectionOne"><h3 style={{fontSize: '27px', fontFamily: 'Futura', fontWeight: 'bold' }}>
         <span style={{color:'#00F4A2'}}>GoHelpPal</span></h3></div>
         {/* Make changes with brand color as in previous line */}
     {/* <div id ="sectionOne"><h3 style={{ paddingBottom: '1px', fontSize: '24px', fontFamily: 'Futura', fontWeight: 'bold' }}><span style={{color:'#13d34b'}}>Go</span><span style={{color:'#3c6cd2'}}>Help</span><span style={{color:'#b429b0'}}>Pal</span></h3></div>
      */}
 
 
-      <div id ="sectionTwo">  
+      <div id ="sectionTwo" style={{paddingBottom: "6px"}}>  
           <Link to="/" className="Nav__brand">
           </Link>
              
@@ -38,7 +39,7 @@ class Navbar extends React.Component {
 {/* Try to reset the padding to lower the icon and line bottom, check Johny Matharu also */}
 
       <div className="App">
-        <FontAwesomeIcon icon={faHome} style={{ fontSize: '18px' }}/>
+        <FontAwesomeIcon icon={faHome} style={{fontSize: '18px' }}/>
     </div>
                                
                                </NavLink></div>

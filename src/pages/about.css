@@ -107,6 +107,11 @@ width: 50%;
 
 
 
+
+
+
+
+
 #equalBox
 {
   width: 33.33%;
@@ -182,10 +187,29 @@ div.scrollmenu {
   {
     width: 420.1px;
     /* width: 320.1px; */
-  border: 27px solid #ECEFF8;;
+  border: 42px solid #ECEFF8;
  
 
   }
+
+
+
+  @media only screen and (max-width: 890px)
+  and (min-device-width: 414px) 
+  {
+    #pic
+      {
+           
+        /* width: 300px; */
+        width: 427px;
+      border: .1px solid white;
+        
+      }
+    }
+
+
+
+
  /* 
   this is for to fix above image tag, use 2 diff ids for images
   width: 420.1px;

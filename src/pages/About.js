@@ -87,10 +87,10 @@ called height 1, 2 and 3 */ }
     <div id= "equalBox"><a href='https://mybid-live.herokuapp.com/'><img id = "pic" src={pic1}></img></a></div> 
   
   <div id= "equalBox"> 
-  <br></br>
-  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> MERN Full Stack SPA: An auction platform </h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>allowing anyone to create and bid on auctions.</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Pay by Stripe or Cryptocurrency.</h6>
+  
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> MERN Full Stack app, an auction platform </h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>that allows anyone to create and bid on</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>auctions and pay by Stripe/Cryptocurrency</h6>
   
     </div> 
   
@@ -117,12 +117,13 @@ called height 1, 2 and 3 */ }
   </div>
   {/* 'https://stormy-castle-86583.herokuapp.com/'  */}
   <div id= "equalBox">
-  <br></br>
-  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> An app for users to post help, offers help </h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>or volunteer opportunities. People will</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>leave their posts who wish to help or volunteer.</h6>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>It is a virtual assistant that can answer</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>to customer's question before they can do</h6>
+    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>chat with an actual agent after they login</h6>
    
     </div>
+
+
 
 
 {/* this is end of height 2 */}
@@ -135,23 +136,25 @@ called height 1, 2 and 3 */ }
    
     
     <div id= "equalBox"> <h3 style={{fontFamily: 'Futura', color: "#808080", fontSize: '18px'}}>Maunny&nbsp;</h3>
-<h6><a href='https://github.com/JohnyMatharu/Maunny/tree/main'><i class="fab fa-github" style={{ color: "#00F4A2",fontSize: '18px' }}></i></a>
+<h6><a href='https://github.com/JohnyMatharu/Maunny-Auto-Finance-Calculator'><i class="fab fa-github" style={{ color: "#00F4A2",fontSize: '18px' }}></i></a>
   </h6>
   <br></br>
     <br></br>
   </div> 
   
   <div id= "equalBox">
-  <a href='https://johnymatharu.github.io/Maunny/'><img id = "pic"  src={pic3}></img></a>
+  <a href='https://johnymatharu.github.io/Maunny-Auto-Finance-Calculator/#/'><img id = "pic"  src={pic3}></img></a>
   </div>
   
   <div id= "equalBox">
-  <br></br>
-  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> Maunny is an application that gets comprehensive</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>information that would assist users in making</h6>
-    <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>a correct purchase decision. Its an online dealership.</h6>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}> It is a calculator for people who wish</h6>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>to purchase one or more vehciles online</h6>
+  <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>and want reserve them with money down</h6>
       
- 
+
+
+
+
     </div>
  
 {/* this is end of height 3 */}
@@ -210,7 +213,6 @@ called height 1, 2 and 3 */ }
     <div id= "equalBoxSpecial">
     <a href='https://johnymatharu.github.io/maugny.com/'><img id = "pic"  src={pic4}></img></a>
     </div>
-    <br></br>
     <div id= "equalBox">
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>Maugny is e-commerce site which sells automotive</h6>
     <h6 style = {{fontFamily: "Futura", color: 'black', fontSize: '15px'}}>sports jewelry and gear. Goal is to connect</h6>

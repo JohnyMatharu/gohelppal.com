@@ -16,14 +16,41 @@
     
 }
 
+@media only screen and (max-width: 890px)
+    and (min-device-width: 414px)
+{
+    .nav
+      {
+              width: 100%;    
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Futura';
+ 
+    /* padding-bottom: 10px; */
+        
+      }
+    }
+
+
+
+
+
+
 .App
 {
     padding-top: 1.2px;
 }
 
+
 #sectionOne{
     width:33.3%; 
 }
+
+
+
+
 #sectionTwo
 {
     /* padding-top: 0.5%; */
